@@ -1,5 +1,3 @@
-const readme = `
-
 # Filmes
 
 Esta é uma aplicação web que permite aos usuários pesquisar e ver detalhes de diferentes filmes. Ela foi criada com React e usa a [API da TMDb](https://www.themoviedb.org/) para obter informações sobre os filmes.
@@ -10,27 +8,20 @@ Para instalar e executar esta aplicação, siga os seguintes passos:
 
 1. Clone este repositório para o seu computador:
 
-\`\`\`bash
+bash
 git clone https://github.com/seu-usuario/filmes.git
-\`\`\`
 
 2. Entre no diretório do projeto:
 
-\`\`\`bash
 cd filmes
-\`\`\`
 
 3. Instale as dependências:
 
-\`\`\`bash
 npm install
-\`\`\`
 
 4. Inicie o servidor de desenvolvimento:
 
-\`\`\`bash
 npm start
-\`\`\`
 
 A aplicação deve ser aberta automaticamente no seu navegador. Se isso não acontecer, basta abrir o endereço \`http://localhost:3000\` manualmente.
 
