@@ -9,7 +9,7 @@ Para instalar e executar esta aplicação, siga os seguintes passos:
 1. Clone este repositório para o seu computador:
 
 bash
-git clone https://github.com/seu-usuario/filmes.git
+git clone https://github.com/seu-usuario/MovieList.git
 
 2. Entre no diretório do projeto:
 
