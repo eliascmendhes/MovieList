@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.App h1 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.App .fillm-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App .fillm-list li {
+  flex: 1 0 25%;
+  margin: 0.5em;
+  list-style: none;
+}
+
+.App .fillm-list li img {
+  width: 100%;
+}
+
+.App .fillm-details {
+  max-width: 800px;
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .fillm-details img {
+  width: 300px;
+  margin: 0.5em 0;
+}
+
+.App .fillm-details h2 {
+  margin: 0.5em 0;
+}
+
+.App .fillm-details ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.App .fillm-details li {
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+.App .search {
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+}
+
+.App .search input[type="text"] {
+  flex: 1;
+  padding: 0.5em;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.App .search button[type="submit"] {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #333;
+  color: #fff;
+}

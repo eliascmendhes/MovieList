@@ -1,0 +1,20 @@
+.Search {
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+}
+
+.Search input[type="text"] {
+  flex: 1;
+  padding: 0.5em;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.Search button[type="submit"] {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #333;
+  color: #fff;
+}
