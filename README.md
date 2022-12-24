@@ -28,10 +28,3 @@ A aplicação deve ser aberta automaticamente no seu navegador. Se isso não aco
 ## Uso
 
 Para usar a aplicação, basta digitar o nome de um filme na caixa de pesquisa e clicar em "Pesquisar". Os detalhes do filme serão exibidos na tela. Você também pode clicar em um filme na lista de resultados da pesquisa para ver mais detalhes.
-
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-`;
-
-console.log(readme);
