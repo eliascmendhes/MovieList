@@ -7,7 +7,7 @@ function Search() {
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=66ce6f59fe7c4a88f26f5b9b43af1ca3&language=en-US&query=${query}&page=1&include_adult=false`
+        `https://api.themoviedb.org/3/search/movie?api_key=language=en-US&query=${query}&page=1&include_adult=false`
       );
       const data = await response.json();
       setResults(data.results);
